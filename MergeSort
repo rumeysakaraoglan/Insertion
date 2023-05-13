@@ -1,0 +1,12 @@
+Verilen dizi için Merge Sort aşamaları:
+
+[16,21,11,8,12,22]
+
+[16, 21, 11] [8, 12, 22]
+[16] [21, 11] [8] [12, 22]
+[16] [11, 21] [8] [12, 22]
+[11, 16, 21] [8, 12, 22]
+[8, 11, 12, 16, 21, 22]
+Dolayısıyla, verilen dizi Merge Sort kullanılarak sıralandığında, yukarıdaki 5 adım gerçekleştirilir.
+
+Big-O gösterimi, Merge Sort için O(n log n) şeklindedir.

@@ -1,0 +1,72 @@
+Root olarak 7'yi seçiyoruz.
+5, 1, 8, 3, 6, 0, 9, 4 ve 2 elemanlarını sırayla kontrol ediyoruz. İlk eleman olan 5, root 7'den küçük olduğu için soluna yerleştiriyoruz.
+7
+/
+5
+1, root 7'den küçük olduğu için 5'in soluna yerleştiriyoruz.
+7
+/
+5
+/
+1
+8, root 7'den büyük olduğu için 7'nin sağına yerleştiriyoruz.
+7
+\
+8
+3, root 7'den küçük olduğu için 5'in soluna yerleştiriyoruz.
+7
+/ \
+5 8
+/
+3
+6, root 7'den büyük olduğu için 5'in sağına yerleştiriyoruz.
+7
+/ \
+5 8
+/ \
+3 6
+0, root 7'den küçük olduğu için 1'in soluna yerleştiriyoruz.
+7
+/ \
+5 8
+/
+-1 6
+\
+0
+9, root 7'den büyük olduğu için 8'in sağına yerleştiriyoruz.
+7
+/ \
+5 8
+/ \
+-1 6 9
+\
+0
+4, root 7'den küçük olduğu için 5'in soluna yerleştiriyoruz.
+7
+/ \
+5 8
+/ \
+-1 6 9
+\
+0
+\
+4
+
+2, root 7'den küçük olduğu için 3'ün soluna yerleştiriyoruz.
+
+7
+/ \
+5 8
+/ \
+-1 6 9
+\ /
+0 4
+\
+2
+Bu şekilde, verilen dizi için Binary Search Tree ağacı oluşturulur.
+
+
+
+
+
+
